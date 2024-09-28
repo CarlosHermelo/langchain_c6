@@ -1,0 +1,18 @@
+ 
+{% extends 'base.html' %}
+
+{% block title %}Chatbot{% endblock %}
+
+{% block content %}
+<h1>Chatbot</h1>
+<form method="post">
+    <input type="text" name="pregunta" placeholder="Haz tu pregunta aquí" required>
+    <button type="submit">Enviar</button>
+</form>
+{% if pregunta %}
+    <h2>Pregunta:</h2>
+    <p>{{ pregunta }}</p>
+    <h2>Respuesta:</h2>
+    <p>{{ respuesta }}</p>
+{% endif %}
+{% endblock %}

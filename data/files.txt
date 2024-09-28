@@ -1,0 +1,3 @@
+upload_file,tipo de documento,nombre de la resolución,fecha,descripcion
+RESOL-2024-2562-INSSJP-DE#INSSJP.pdf,tipo documento resolución,RESOL-2024-2562,15/09/2024,"es una resolución de PAMI"
+RESOL-2024-2526-INSSJP-DE#INSSJP.pdf,tipo documento resolución,RESOL-2024-2526,15/08/2024,"es una resolución de PAMI"
